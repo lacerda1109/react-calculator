@@ -1,0 +1,24 @@
+.Calculator {
+    height: 320px;
+    width: 235px;
+    border-radius: 5px;
+    overflow: hidden;
+
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: 1fr 48px 48px 48px 48px 48px;
+}
+
+.Calculator > * {
+    font-weight: 400;
+}
+
+.operationIcon {
+    position: relative;
+    top: 4px;
+}
+
+.multIcon {
+    font-size: 26px;
+    transform: rotate(45deg);
+}
